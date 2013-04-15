@@ -1,10 +1,10 @@
 class UserMailer < ActionMailer::Base
-  default from: "avi@flatironschool.com"
+  default from: "hireaflatironer@flatironschool.com"
 
   
   def password_reset(user)
     @user = user
 
-    mail :to => user.email, :subject => "Flatiron Hire Password Reset"
+    mail :to => user.email, :subject => "HireFlatiron App Password Reset"
   end
 end

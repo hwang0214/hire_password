@@ -1,4 +1,5 @@
 InterviewApp::Application.routes.draw do
+
   # get "password_resets/new"
 
   root :to => 'students#index'
